@@ -1,0 +1,111 @@
+$Primary: #5b575b;
+$Secondry: #24c875;
+$Tertiary: #1a93d1;
+p {
+  color: $Primary;
+}
+.card-container {
+  width: 340px !important;
+  padding: 25px 38px;
+  border-radius: 5px;
+  text-align: start;
+  box-shadow: 0px 1px 10px -7px;
+  border: 1px solid #5454542e;
+  .head-text {
+    .bird-para {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: left;
+      margin: 0;
+      padding-bottom: 27px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .bird {
+        background-color: $Secondry;
+        padding: 6px 10px;
+        border-radius: 10pc;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    .date {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 0;
+      text-align: left;
+    }
+  }
+  .main-heading {
+    h2 {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      margin: 0;
+      padding: 15px 0px;
+    }
+    .divider {
+      width: 30px;
+      height: 2px;
+      text-align: start;
+      margin: 0;
+      background-color: #dad8d9;
+      border: none;
+    }
+    .date-icon {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      img {
+        width: 16px;
+      }
+    }
+    .des {
+      width: 300px;
+      padding-top: 27px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: left;
+      margin: 0;
+    }
+
+    .aug {
+      margin: 0;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 10px;
+    }
+  }
+  .text-btn {
+    h2 {
+      color: $Tertiary;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      margin: 0px;
+      padding: 25px 0px;
+    }
+    button {
+      padding: 10px 25px;
+      background-color: $Tertiary;
+      border: none;
+      outline: none;
+      border-radius: 3.5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+      line-height: 17px;
+    }
+  }
+}
